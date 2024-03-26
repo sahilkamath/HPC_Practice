@@ -67,7 +67,7 @@ class Euler:
         y = self.y0
 
         for _ in range(self.N):
-            y = y + self.dt * self.f(y, t)
+            y = y/(1+self.dt)
             t = t + self.dt
             t_values.append(t)
             y_values.append(y)
