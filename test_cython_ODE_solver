@@ -3,7 +3,7 @@ from typing import Callable
 
 import matplotlib.pyplot as plt
 
-from Implicit_ODE_Solver import Euler
+from cython_ODE_solver import Euler
 
 
 # Function definition
