@@ -1,6 +1,6 @@
 # cython: language_level=3
-from libc.stdlib cimport rand, RAND_MAX
 cimport cython
+from libc.stdlib cimport RAND_MAX, rand
 
 @cython.boundscheck(False)  # Disable bounds checking for performance
 @cython.wraparound(False)  # Disable negative indexing for performance

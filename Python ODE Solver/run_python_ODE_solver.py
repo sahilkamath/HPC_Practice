@@ -2,7 +2,6 @@ import math
 from typing import Callable
 
 import matplotlib.pyplot as plt
-
 from python_ODE_solver import Euler
 
 
